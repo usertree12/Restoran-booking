@@ -1,0 +1,14 @@
+app:
+  env: development
+  port: 8080
+
+database:
+  host: postgres
+  port: 5432
+  user: postgres
+  password: password
+  dbname: restaurant_booking
+  sslmode: disable
+
+jwt:
+  secret: supersecretkey 
